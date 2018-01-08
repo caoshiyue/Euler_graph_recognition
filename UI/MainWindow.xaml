@@ -1,0 +1,22 @@
+﻿<Window x:Class="discrete_mathematics3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:discrete_mathematics3"
+        mc:Ignorable="d"
+        Title="欧拉通路" Height="527.833" Width="475.667" ResizeMode="NoResize" Visibility="Visible" Background="#FFECF1FF">
+    <Grid Margin="0,0,0,0" Name="grid0">
+        <Grid HorizontalAlignment="Left" Height="400" Margin="374,15,-2,0" VerticalAlignment="Top" Width="98">
+            <Button Content="计算" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Width="74" Click="Start" Height="22" Name="_start"/>
+            <Button Content="导入" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="74" Click="Input" Height="22" Name="_input"/>
+        </Grid>
+        <Grid Margin="15,15,0,0" Name="grid2" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="360">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="-2,-2,-2,-2" Name="mainBorder"/>
+            <Image Margin="0,0,0,0" Name="imshow"/>
+        </Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="86,434,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="362" Name="pathout" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,438,0,0" TextWrapping="Wrap" Text="欧拉通路" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Margin="15,462,0,17" Width="273" Height="10" Text="Recognition Design By Hzc      UI Design By Csy" FontFamily="NSimSun" Foreground="DarkGray" FontSize="8"/>
+    </Grid>
+</Window>
